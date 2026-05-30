@@ -1,0 +1,8 @@
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
+global.cmw = camera_get_view_width(view_camera[0]) //pega a largura da camera
+global.cmh = camera_get_view_height(view_camera[0]) //pega a altura da camera
+
+//garante que a camera fique no personagem
+global.cmx = obj_player.x - global.cmw/2 
+global.cmy = obj_player.y - global.cmh/2
