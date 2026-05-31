@@ -1,0 +1,3 @@
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
+scale = 1 //escala do objeto
