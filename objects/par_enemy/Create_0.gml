@@ -6,3 +6,4 @@ spd = 0.4 //velocidade base do personagem
 dir = -1 //direção
 
 hp = 20 //vida
+damage = 0.05 //dano

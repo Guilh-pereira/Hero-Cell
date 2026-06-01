@@ -1,5 +1,8 @@
 /// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+if(global.levelup == true) {
+	exit //para de executar todo o código abaixo dele
+}
+
 image_xscale = scale
 image_yscale = scale
 

@@ -1,5 +1,17 @@
 /// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+if(global.levelup == true) {
+	exit //para de executar todo o código abaixo dele
+}
+
+if(is_damage == true) { //muda a cor da sprite se estiver tomando dano
+	image_blend = c_red
+} else {
+	image_blend = c_white
+}
+if (show_hp_timer > 0) { //condição que faz o timer do hp começar
+    show_hp_timer--;
+}
+
 //definindo quais teclas aquelas variáveis representam
 right = keyboard_check(ord("D")) or keyboard_check(vk_right)
 up = keyboard_check(ord("W")) or keyboard_check(vk_up)
