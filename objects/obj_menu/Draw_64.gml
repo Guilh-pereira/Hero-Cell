@@ -32,11 +32,11 @@ for(var i = 0; i < op_max; ++i){
 	if(index == i){
 		draw_set_color(c_green);	
 	}else{
-		draw_set_color(c_white);
+		draw_set_color(c_black);
 	}
 	
 	//desenha as opções do menu e coloca a distancia
-	draw_text(x1, y1 + (dist * i),opcoes[i]);
+	draw_text(x1, y1 + 60 + (dist * i),opcoes[i]);
 }
 
 //É preciso sempre resetar a função para que ela não fique sempre desenhando com essa fonte fora desse obj.

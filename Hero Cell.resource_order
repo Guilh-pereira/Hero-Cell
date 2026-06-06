@@ -23,6 +23,7 @@
     {"name":"spr_exp_hud","order":7,"path":"sprites/spr_exp_hud/spr_exp_hud.yy",},
     {"name":"spr_exp","order":6,"path":"sprites/spr_exp/spr_exp.yy",},
     {"name":"spr_hp","order":11,"path":"sprites/spr_hp/spr_hp.yy",},
+    {"name":"spr_jogo_bg","order":18,"path":"sprites/spr_jogo_bg/spr_jogo_bg.yy",},
     {"name":"spr_level_up_hud","order":9,"path":"sprites/spr_level_up_hud/spr_level_up_hud.yy",},
     {"name":"spr_life_bar","order":10,"path":"sprites/spr_life_bar/spr_life_bar.yy",},
     {"name":"spr_logo","order":14,"path":"sprites/spr_logo/spr_logo.yy",},
@@ -31,5 +32,6 @@
     {"name":"spr_speed","order":13,"path":"sprites/spr_speed/spr_speed.yy",},
     {"name":"spr_spell_1_vfx","order":4,"path":"sprites/spr_spell_1_vfx/spr_spell_1_vfx.yy",},
     {"name":"spr_spell_1","order":5,"path":"sprites/spr_spell_1/spr_spell_1.yy",},
+    {"name":"Sprite18","order":17,"path":"sprites/Sprite18/Sprite18.yy",},
   ],
 }
