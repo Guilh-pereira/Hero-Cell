@@ -8,6 +8,7 @@
     {"name":"obj_control","order":4,"path":"objects/obj_control/obj_control.yy",},
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_exp","order":7,"path":"objects/obj_exp/obj_exp.yy",},
+    {"name":"obj_menu","order":8,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"obj_spell_1_vfx","order":6,"path":"objects/obj_spell_1_vfx/obj_spell_1_vfx.yy",},
     {"name":"obj_spell_1","order":5,"path":"objects/obj_spell_1/obj_spell_1.yy",},
     {"name":"par_enemy","order":3,"path":"objects/par_enemy/par_enemy.yy",},

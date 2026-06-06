@@ -18,7 +18,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Hero Cell",
   "resources":[
@@ -26,6 +26,7 @@
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_exp","path":"objects/obj_exp/obj_exp.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_spell_1_vfx","path":"objects/obj_spell_1_vfx/obj_spell_1_vfx.yy",},},
     {"id":{"name":"obj_spell_1","path":"objects/obj_spell_1/obj_spell_1.yy",},},
