@@ -5,6 +5,6 @@ is_damage = true
 alarm[0] = 2
 show_hp_timer = game_get_speed(gamespeed_fps) * 2 //como a contar o timer da vida
 
-if(hp <= 0) { //se o hp acabar reinicia o jogo
-	room_restart()
+if(hp <= 0) { //se o hp acabar volta para o menu
+	room_goto(Room0);
 }

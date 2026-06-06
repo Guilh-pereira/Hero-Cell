@@ -1,8 +1,14 @@
+//resetando visao para o menu
+display_set_gui_size(display_get_width(), display_get_height());
+
+//fazendo background menu oreencher toda tela
+draw_sprite_stretched(spr_menu_bg, 0, 0, 0, display_get_gui_width(), display_get_gui_height());
+
 //Usando função para fonte do menu
 draw_set_font(ft_menu);
 
 //variavel para distanciar as opcoes do menu
-var dist = 55
+var dist = 85
 
 //Centralizando o menu
 var gui_largura = display_get_gui_width();
@@ -11,6 +17,10 @@ var gui_altura = display_get_gui_height();
 //Variaveis para deixar no centor(metade) da tela.
 var x1 = gui_largura/2;
 var y1 = gui_altura/2;
+
+
+//colocando logo do jogo
+draw_sprite_ext(spr_logo, 0, x1, 300, 4, 4, 0, c_white, 50);
 
 //Desenhando o menu utilizando um loop.
 for(var i = 0; i < op_max; ++i){
