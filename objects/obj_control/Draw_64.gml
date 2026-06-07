@@ -1,4 +1,6 @@
 /// @description Inserir descrição aqui
+draw_set_font(ft_upgrades);
+
 if(global.levelup == true) {
 	var _sprw = sprite_get_width(spr_level_up_hud)
 	var _sprh = sprite_get_height(spr_level_up_hud)
@@ -67,3 +69,4 @@ if(global.levelup == true) {
 draw_sprite(spr_exp_hud, -1, 0, 0) //desenha um sprite na viewport
 draw_sprite_ext(spr_exp_bar, -1, 1, 1, global.exp/global.exp_max, 1, 0, c_white, 1)
 
+draw_set_font(1);

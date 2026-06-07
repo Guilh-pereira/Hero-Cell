@@ -3,7 +3,7 @@ x_offset = 112;
 y_offset = 70;
 
 //Criando array com as opções do menu de pause.
-opcoes_pause = ["Jogar", "Tutorial", "Sair"];
+opcoes_pause = ["Jogar", "Sair"];
 
 //A primeira opção selecionada é Jogar que esta na posição 0.
 index = 0;

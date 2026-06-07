@@ -346,8 +346,8 @@
   "maintainGms1Font":false,
   "name":"ft_menu",
   "parent":{
-    "name":"Hero Cell",
-    "path":"Hero Cell.yyp",
+    "name":"Fontes",
+    "path":"folders/Fontes.yy",
   },
   "pointRounding":0,
   "ranges":[
