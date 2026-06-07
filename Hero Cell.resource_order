@@ -9,6 +9,7 @@
     {"name":"ft_upgrades","order":1,"path":"fonts/ft_upgrades/ft_upgrades.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_control","order":4,"path":"objects/obj_control/obj_control.yy",},
+    {"name":"obj_controles","order":10,"path":"objects/obj_controles/obj_controles.yy",},
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_exp","order":7,"path":"objects/obj_exp/obj_exp.yy",},
     {"name":"obj_menu","order":8,"path":"objects/obj_menu/obj_menu.yy",},

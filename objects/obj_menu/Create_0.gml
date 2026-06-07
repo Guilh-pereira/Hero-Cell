@@ -1,4 +1,6 @@
 //Criando array com as opções do menu.
+global.veio_do_pause = false;
+
 draw_set_font(ft_menu);
 opcoes = ["Jogar", "Glossário", "Controles", "Sair"];
 

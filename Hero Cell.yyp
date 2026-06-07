@@ -28,6 +28,7 @@
     {"id":{"name":"ft_upgrades","path":"fonts/ft_upgrades/ft_upgrades.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"obj_controles","path":"objects/obj_controles/obj_controles.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_exp","path":"objects/obj_exp/obj_exp.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
