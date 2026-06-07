@@ -24,6 +24,9 @@ function Upgrade(_nome, _desc, _sprite, _funcao) constructor {
 }
 
 // Pool com os upgrades
+
+
+
 global.upgrade_pool = [
 	new Upgrade("Vida Extra", "+5 de Vida Máxima", spr_hp, function() {
 		obj_player.hpMax += 5
