@@ -1,4 +1,20 @@
-/// @description Inserir descrição aqui
+var _pause_button = keyboard_check_pressed(ord("P"));
+
+if(_pause_button){
+    if(!instance_exists(obj_pause)){
+        instance_create_depth(0, 0, -9999, obj_pause);
+    } else {
+        with(obj_pause){
+            instance_destroy();
+        }
+    }
+}
+
+//verifica se o pause esta ativado ou não
+if(scr_pause() == true){
+	exit;
+}
+
 
 if(global.levelup == true) {
 	alarm[0]++

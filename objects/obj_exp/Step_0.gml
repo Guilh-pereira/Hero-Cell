@@ -1,4 +1,8 @@
 /// @description Inserir descrição aqui
+if(scr_pause()){
+    exit;
+}
+
 if(global.levelup == true) {
 	exit //para de executar todo o código abaixo dele
 }

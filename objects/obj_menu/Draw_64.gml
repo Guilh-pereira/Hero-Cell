@@ -1,7 +1,7 @@
 //resetando visao para o menu
 display_set_gui_size(display_get_width(), display_get_height());
 
-//fazendo background menu oreencher toda tela
+//fazendo background menu preencher toda tela
 draw_sprite_stretched(spr_menu_bg, 0, 0, 0, display_get_gui_width(), display_get_gui_height());
 
 //Usando função para fonte do menu

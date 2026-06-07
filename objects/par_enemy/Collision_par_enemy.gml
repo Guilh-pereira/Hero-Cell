@@ -1,6 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 //código para fazerem os inimigos se empurrarem
+if(scr_pause()){
+    exit;
+}
+
 var _push = .5
 
 var _dir = point_direction(other.x, other.y, x, y)
