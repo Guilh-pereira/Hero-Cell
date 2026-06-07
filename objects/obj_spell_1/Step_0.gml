@@ -1,4 +1,7 @@
-/// @description Inserir descrição aqui
+if(scr_pause()){
+    exit;
+}
+
 if(global.levelup == true) {
 	alarm[0]++
 	speed = 0

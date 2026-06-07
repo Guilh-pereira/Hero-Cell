@@ -1,4 +1,8 @@
-/// @description Inserir descrição aqui
+//variavel para inserir o botao de pause
+if(scr_pause()){
+    exit;
+}
+
 if(global.levelup == true) {
 	exit //para de executar todo o código abaixo dele
 }
