@@ -2,9 +2,11 @@ var _pause_button = keyboard_check_pressed(ord("P"));
 
 if(_pause_button){
     if(!instance_exists(obj_pause)){
+		audio_pause_sound(global.bgm);
         instance_create_depth(0, 0, -9999, obj_pause);
     } else {
         with(obj_pause){
+			audio_resume_sound(global.bgm);
             instance_destroy();
         }
     }
