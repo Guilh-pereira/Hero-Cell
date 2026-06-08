@@ -48,7 +48,9 @@ Projeto desenvolvido como parte de estudos e práticas de desenvolvimento de jog
 
 desenvolvido por
 Vinicius Ribeiro Nery Costa;
-
+Guilherme Pereira;
+Enzo;
+Hendrick
 
 ## Licença
 
