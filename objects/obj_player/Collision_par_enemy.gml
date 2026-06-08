@@ -2,9 +2,10 @@
 // Você pode escrever seu código neste editor
 
 //verifica se o pause esta ativado ou não
-if(scr_pause() == true){
+if(global.levelup == true){
 	exit;
 }
+
 hp -= other.damage //quando encosta toma dano
 is_damage = true
 alarm[0] = 2

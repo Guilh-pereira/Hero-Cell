@@ -1,7 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-
 hspd = -1 //velocidade horizontal
 vspd = -1 //velocidade vertical
 spd = 0.4 //velocidade base do personagem
