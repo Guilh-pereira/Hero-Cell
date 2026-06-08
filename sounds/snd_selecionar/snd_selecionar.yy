@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_jogo",
+  "%Name":"snd_selecionar",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":88.0,
+  "duration":2.0781405,
   "exportDir":"",
-  "name":"snd_jogo",
+  "name":"snd_selecionar",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_jogo.mp3",
-  "volume":0.25,
+  "soundFile":"snd_selecionar.wav",
+  "volume":0.15,
 }

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_jogo",
+  "%Name":"snd_passando_menu",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":88.0,
+  "duration":4.8750114,
   "exportDir":"",
-  "name":"snd_jogo",
+  "name":"snd_passando_menu",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_jogo.mp3",
-  "volume":0.25,
+  "soundFile":"snd_passando_menu.wav",
+  "volume":0.05,
 }

@@ -60,6 +60,8 @@ if (alarm[0] <= 0)
 }
 
 if(global.exp >= global.exp_max) { //condição para upar de nível
+	
+	audio_play_sound(snd_level_up, 0, false)
 	global.level++
 	global.exp = global.exp - global.exp_max
 	

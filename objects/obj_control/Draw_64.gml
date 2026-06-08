@@ -25,7 +25,9 @@ if(global.levelup == true) {
 			
 			if(mouse_check_button_pressed(mb_left)) {
 				_upg.on_upgrade();
+				audio_play_sound(snd_selecionar_power_up, 0, false);
 				global.levelup = false; //despausa o jogo
+				
 			}
 			
 		} else{
