@@ -2,7 +2,7 @@
 global.veio_do_pause = false;
 
 draw_set_font(ft_menu);
-opcoes = ["Jogar", "Glossário", "Controles", "Sair"];
+opcoes = ["Jogar", "Catálogo Viral", "Controles", "Sair"];
 
 //A primeira opção selecionada é Jogar que esta na posição 0.
 index = 0;
