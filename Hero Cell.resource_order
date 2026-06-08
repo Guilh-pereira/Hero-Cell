@@ -30,6 +30,7 @@
     {"name":"Room2","order":4,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":5,"path":"rooms/Room3/Room3.yy",},
     {"name":"Room5","order":8,"path":"rooms/Room5/Room5.yy",},
+    {"name":"snd_game_over","order":7,"path":"sounds/snd_game_over/snd_game_over.yy",},
     {"name":"snd_jogo","order":1,"path":"sounds/snd_jogo/snd_jogo.yy",},
     {"name":"snd_level_up","order":3,"path":"sounds/snd_level_up/snd_level_up.yy",},
     {"name":"snd_passando_menu","order":6,"path":"sounds/snd_passando_menu/snd_passando_menu.yy",},

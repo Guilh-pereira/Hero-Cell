@@ -1,5 +1,14 @@
 //Criando array com as opções do menu.
-global.veio_do_pause = false;
+global.bgm = -1;
+global.music_type = "";
+
+if (global.bgm != -1)
+{
+    audio_stop_sound(global.bgm);
+}
+
+global.bgm = audio_play_sound(snd_menu, 1, true);
+global.music_type = "menu";
 
 draw_set_font(ft_menu);
 opcoes = ["Jogar", "Catálogo Viral", "Controles", "Sair"];

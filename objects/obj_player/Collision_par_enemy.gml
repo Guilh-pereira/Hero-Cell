@@ -1,9 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if(scr_pause()){
-    exit;
-}
 
+//verifica se o pause esta ativado ou não
+if(scr_pause() == true){
+	exit;
+}
 hp -= other.damage //quando encosta toma dano
 is_damage = true
 alarm[0] = 2

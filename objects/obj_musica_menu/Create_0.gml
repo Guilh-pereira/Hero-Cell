@@ -1,9 +1,11 @@
 persistent = true;
 
-global.bgm = -1;
-global.music_type = "";
-
-if (!audio_is_playing(global.bgm))
+if (!variable_global_exists("bgm"))
 {
-    global.bgm = audio_play_sound(snd_menu, 1, true);
+    global.bgm = -1;
+}
+
+if (!variable_global_exists("music_type"))
+{
+    global.music_type = "";
 }
