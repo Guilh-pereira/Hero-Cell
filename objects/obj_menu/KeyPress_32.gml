@@ -2,6 +2,8 @@
 if(index == 0){
 	//inicia o jogo
 	room_goto_next();
+} else if(index == 1){
+	room_goto(Room3);
 } else if(index == 2){
 	room_goto(Room2);
 } else if(index == 3){//Se o usuario pressinoar a tecla espaço na opção da posição 3(Sair) ele encerra o game.
