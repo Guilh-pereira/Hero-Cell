@@ -1,4 +1,7 @@
 /// @description Inserir descrição aqui
+audio_stop_all();
+global.bgm = audio_play_sound(snd_jogo, 0, true);
+
 randomize()
 
 global.exp = 0

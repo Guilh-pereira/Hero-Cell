@@ -1,4 +1,5 @@
 //Se o usuario pressinoar a tecla enter na opção da posição 0(jogar) ele inicia o game.
+audio_play_sound(snd_selecionar, 0, false);
 if(index == 0){
 	//inicia o jogo
 	room_goto_next();

@@ -43,6 +43,7 @@ spell_1_cd--
 if(spell_1_cd <= 0) {
 	var _enemy = instance_nearest(x, y, par_enemy)
 	var _inst = instance_create_layer(x, y, "Instances", obj_spell_1)
+	audio_play_sound(snd_shoot, 0, false);
 	_inst.speed = 2
 	_inst.direction = point_direction(x, y, _enemy.x, _enemy.y)
 	spell_1_cd = spell_1_timer

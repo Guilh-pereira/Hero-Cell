@@ -1,7 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if(scr_pause()){
-    exit;
+
+//verifica se o pause esta ativado ou não
+if(global.levelup == true){
+	exit;
 }
 
 hp -= other.damage //quando encosta toma dano
