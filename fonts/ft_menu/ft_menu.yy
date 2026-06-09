@@ -12,7 +12,7 @@
   "fontName":"Arial",
   "glyphOperations":0,
   "glyphs":{
-<<<<<<< HEAD
+
     "32":{"character":32,"h":84,"offset":0,"shift":20,"w":20,"x":2,"y":2,},
     "33":{"character":33,"h":84,"offset":6,"shift":20,"w":9,"x":566,"y":346,},
     "34":{"character":34,"h":84,"offset":3,"shift":26,"w":20,"x":577,"y":346,},
@@ -205,7 +205,7 @@
     "254":{"character":254,"h":84,"offset":4,"shift":41,"w":34,"x":476,"y":174,},
     "255":{"character":255,"h":84,"offset":1,"shift":37,"w":35,"x":905,"y":518,},
     "9647":{"character":9647,"h":84,"offset":14,"shift":71,"w":43,"x":942,"y":518,},
-=======
+
     "32":{"character":32,"h":115,"offset":0,"shift":20,"w":20,"x":2,"y":2,},
     "33":{"character":33,"h":115,"offset":6,"shift":20,"w":9,"x":566,"y":470,},
     "34":{"character":34,"h":115,"offset":3,"shift":26,"w":20,"x":577,"y":470,},
@@ -398,7 +398,6 @@
     "254":{"character":254,"h":115,"offset":4,"shift":41,"w":34,"x":476,"y":236,},
     "255":{"character":255,"h":115,"offset":1,"shift":37,"w":35,"x":905,"y":704,},
     "9647":{"character":9647,"h":115,"offset":3,"shift":71,"w":43,"x":942,"y":704,},
->>>>>>> feature/upgrades
   },
   "hinting":0,
   "includeTTF":false,
