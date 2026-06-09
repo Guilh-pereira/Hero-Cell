@@ -16,8 +16,6 @@ if (show_hp_timer > 0) { //condição que faz o timer do hp começar
     show_hp_timer--;
 }
 
-<<<<<<< HEAD
-=======
 //sistema de regeneração
 if(hp < hpMax)
 {
@@ -54,7 +52,6 @@ else
 	spd = base_spd
 }
 
->>>>>>> feature/upgrades
 //definindo quais teclas aquelas variáveis representam
 right = keyboard_check(ord("D")) or keyboard_check(vk_right)
 up = keyboard_check(ord("W")) or keyboard_check(vk_up)
@@ -78,18 +75,6 @@ if(_xx != 0 or _yy != 0) {
 }
 
 //código para disparar ataque
-<<<<<<< HEAD
-spell_1_cd--
-if(spell_1_cd <= 0) {
-	var _enemy = instance_nearest(x, y, par_enemy)
-	var _inst = instance_create_layer(x, y, "Instances", obj_spell_1)
-	audio_play_sound(snd_shoot, 0, false);
-	_inst.speed = 2
-	_inst.direction = point_direction(x, y, _enemy.x, _enemy.y)
-	spell_1_cd = spell_1_timer
-}
-
-=======
 // diminui o cooldown do disparo a cada frame
 spell_1_cd--
 
@@ -124,4 +109,3 @@ if(spell_1_cd <= 0)
 	// usa o cooldown alterado pelo sistema berserk
 	spell_1_cd = spell_timer_final
 }
->>>>>>> feature/upgrades
