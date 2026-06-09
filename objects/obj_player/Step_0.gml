@@ -16,6 +16,45 @@ if (show_hp_timer > 0) { //condição que faz o timer do hp começar
     show_hp_timer--;
 }
 
+<<<<<<< HEAD
+=======
+//sistema de regeneração
+if(hp < hpMax)
+{
+	hp += hp_regen / game_get_speed(gamespeed_fps);
+
+	if(hp > hpMax)
+		hp = hpMax;
+}
+
+//sistema de berserk
+// porcentagem de vida atual
+var hp_percent = hp / hpMax
+
+// quanto menos vida, maior o bonus
+var rage_bonus = (1 - hp_percent)
+
+// calcula dano final do projétil
+damage_final = projectile_damage + (rage_bonus * berserk_damage)
+
+// calcula velocidade de disparo final
+var spell_timer_final = spell_1_timer - (rage_bonus * berserk_attack_speed)
+
+// evita quebrar o jogo
+if(spell_timer_final < 5)
+	spell_timer_final = 5
+
+// velocidade progressiva
+if(progressive_speed)
+{
+	spd = base_spd + ((1 - hp_percent) * 0.7)
+}
+else
+{
+	spd = base_spd
+}
+
+>>>>>>> feature/upgrades
 //definindo quais teclas aquelas variáveis representam
 right = keyboard_check(ord("D")) or keyboard_check(vk_right)
 up = keyboard_check(ord("W")) or keyboard_check(vk_up)
@@ -39,6 +78,7 @@ if(_xx != 0 or _yy != 0) {
 }
 
 //código para disparar ataque
+<<<<<<< HEAD
 spell_1_cd--
 if(spell_1_cd <= 0) {
 	var _enemy = instance_nearest(x, y, par_enemy)
@@ -49,3 +89,39 @@ if(spell_1_cd <= 0) {
 	spell_1_cd = spell_1_timer
 }
 
+=======
+// diminui o cooldown do disparo a cada frame
+spell_1_cd--
+
+// verifica se já pode atacar novamente
+if(spell_1_cd <= 0)
+{
+	// procura o inimigo mais próximo do player
+	var _enemy = instance_nearest(x, y, par_enemy)
+
+	// verifica se realmente existe um inimigo
+	// evita erro quando não há inimigos na sala
+	if(instance_exists(_enemy))
+	{
+		// cria o projétil na layer "Instances"
+		var _inst = instance_create_layer(x, y, "Instances", obj_spell_1)
+
+		// toca o som do disparo
+		audio_play_sound(snd_shoot, 0, false)
+
+		// define a velocidade do projétil
+		_inst.speed = 2
+
+		// faz o projétil ir na direção do inimigo mais próximo
+		_inst.direction = point_direction(x, y, _enemy.x, _enemy.y)
+
+		// envia o dano calculado para o projétil
+		// isso permite upgrades de dano e berserk funcionarem
+		_inst.damage = damage_final
+	}
+
+	// reinicia o cooldown do disparo
+	// usa o cooldown alterado pelo sistema berserk
+	spell_1_cd = spell_timer_final
+}
+>>>>>>> feature/upgrades

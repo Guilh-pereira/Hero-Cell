@@ -31,6 +31,7 @@ function Upgrade(_nome, _desc, _sprite, _funcao) constructor {
 
 
 global.upgrade_pool = [
+<<<<<<< HEAD
 	new Upgrade("Vida Extra", "+5 de Vida Máxima", spr_hp, function() {
 		obj_player.hpMax += 5
 		obj_player.hp += 5 //cura um pouco ao aumentar o hp
@@ -43,6 +44,72 @@ global.upgrade_pool = [
 		// Evita que o timer fique menor que 10 frames para não bugar
 		if (obj_player.spell_1_timer < 10) obj_player.spell_1_timer = 10;
 	}) 
+=======
+
+    // VIDA
+    new Upgrade("Vida Extra", "+5 de Vida Máxima", spr_hp, function() {
+        obj_player.hpMax += 5
+        obj_player.hp += 5
+    }),
+
+    // VELOCIDADE
+    new Upgrade("Velocidade", "Aumenta a velocidade", spr_speed, function() {
+        obj_player.spd += .5
+        obj_player.base_spd = obj_player.spd
+    }),
+
+    // FIRE RATE
+    new Upgrade("Ataque Rápido", "Ataca em menos tempo", spr_dmgspeed, function() {
+        obj_player.spell_1_timer -= 5
+
+        if (obj_player.spell_1_timer < 10)
+            obj_player.spell_1_timer = 10;
+    }),
+
+    // DANO DO PROJÉTIL
+    new Upgrade("Projétil Forte", "+1 dano do disparo", spr_dmgup, function() {
+        obj_player.projectile_damage += 1
+    }),
+
+	// REGENERAÇÃO
+    new Upgrade("Regeneração", "+0.5 HP por segundo", spr_hpregen, function() {
+        obj_player.hp_regen += 0.5
+    }),
+    
+    // MAGNETISMO XP
+    new Upgrade("Magnetismo", "Aumenta alcance do XP", spr_magne, function() {
+        obj_player.xp_magnet += 10
+    }),
+
+	// ARMADURA
+    new Upgrade("Proteção", "-1 dano recebido", spr_armad, function() {
+        obj_player.armor += 1
+    }),
+	
+	// ESCUDO
+    new Upgrade("Escudo", "Bloqueia 1 hit", spr_escud, function() {
+        obj_player.shield += 1
+    }),
+
+    /* ESQUIVA
+    new Upgrade("Esquiva", "+5% chance evitar dano", spr_esqu, function() {
+        obj_player.dodge_chance += 5
+
+        if (obj_player.dodge_chance > 50)
+            obj_player.dodge_chance = 50
+    }),
+
+    // VELOCIDADE PROGRESSIVA
+    new Upgrade("Adrenalina", "+ rápido com - vida", spr_velprog, function() {
+        obj_player.progressive_speed = true
+    }),
+
+    // BERSERK
+    new Upgrade("Fúria", "Pouca vida aumenta dano", spr_berserk, function() {
+        obj_player.berserk_damage += 3
+        obj_player.berserk_attack_speed += 5
+    }) */
+>>>>>>> feature/upgrades
 ]
 
 // Array que vai guardar os 3 poderes sorteados na tela atual

@@ -1,9 +1,15 @@
 {
   "FolderOrderSettings":[
     {"name":"Fontes","order":7,"path":"folders/Fontes.yy",},
+<<<<<<< HEAD
     {"name":"Sounds","order":9,"path":"folders/Sounds.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
     {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
+=======
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
+    {"name":"Sounds","order":9,"path":"folders/Sounds.yy",},
+>>>>>>> feature/upgrades
     {"name":"sprites","order":1,"path":"folders/sprites.yy",},
   ],
   "ResourceOrderSettings":[
@@ -37,30 +43,57 @@
     {"name":"snd_selecionar_power_up","order":5,"path":"sounds/snd_selecionar_power_up/snd_selecionar_power_up.yy",},
     {"name":"snd_selecionar","order":4,"path":"sounds/snd_selecionar/snd_selecionar.yy",},
     {"name":"snd_shoot","order":2,"path":"sounds/snd_shoot/snd_shoot.yy",},
+<<<<<<< HEAD
     {"name":"spr_camera","order":2,"path":"sprites/spr_camera/spr_camera.yy",},
     {"name":"spr_catalogo_viral","order":27,"path":"sprites/spr_catalogo_viral/spr_catalogo_viral.yy",},
     {"name":"spr_controles","order":20,"path":"sprites/spr_controles/spr_controles.yy",},
     {"name":"spr_damage","order":12,"path":"sprites/spr_damage/spr_damage.yy",},
+=======
+    {"name":"spr_armad","order":36,"path":"sprites/spr_armad/spr_armad.yy",},
+    {"name":"spr_berserk","order":30,"path":"sprites/spr_berserk/spr_berserk.yy",},
+    {"name":"spr_camera","order":2,"path":"sprites/spr_camera/spr_camera.yy",},
+    {"name":"spr_catalogo_viral","order":27,"path":"sprites/spr_catalogo_viral/spr_catalogo_viral.yy",},
+    {"name":"spr_controles","order":20,"path":"sprites/spr_controles/spr_controles.yy",},
+    {"name":"spr_dmgspeed","order":12,"path":"sprites/spr_dmgspeed/spr_dmgspeed.yy",},
+    {"name":"spr_dmgup","order":29,"path":"sprites/spr_dmgup/spr_dmgup.yy",},
+>>>>>>> feature/upgrades
     {"name":"spr_elementos_bg","order":19,"path":"sprites/spr_elementos_bg/spr_elementos_bg.yy",},
     {"name":"spr_enemy","order":3,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_enemy2","order":21,"path":"sprites/spr_enemy2/spr_enemy2.yy",},
     {"name":"spr_enemy3","order":22,"path":"sprites/spr_enemy3/spr_enemy3.yy",},
     {"name":"spr_enemy4","order":24,"path":"sprites/spr_enemy4/spr_enemy4.yy",},
     {"name":"spr_enemy5","order":25,"path":"sprites/spr_enemy5/spr_enemy5.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"spr_escud","order":34,"path":"sprites/spr_escud/spr_escud.yy",},
+    {"name":"spr_esqu","order":33,"path":"sprites/spr_esqu/spr_esqu.yy",},
+>>>>>>> feature/upgrades
     {"name":"spr_exp_bar","order":8,"path":"sprites/spr_exp_bar/spr_exp_bar.yy",},
     {"name":"spr_exp_hud","order":7,"path":"sprites/spr_exp_hud/spr_exp_hud.yy",},
     {"name":"spr_exp","order":6,"path":"sprites/spr_exp/spr_exp.yy",},
     {"name":"spr_game_over","order":26,"path":"sprites/spr_game_over/spr_game_over.yy",},
     {"name":"spr_hp","order":11,"path":"sprites/spr_hp/spr_hp.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"spr_hpregen","order":35,"path":"sprites/spr_hpregen/spr_hpregen.yy",},
+>>>>>>> feature/upgrades
     {"name":"spr_jogo_bg","order":18,"path":"sprites/spr_jogo_bg/spr_jogo_bg.yy",},
     {"name":"spr_level_up_hud","order":9,"path":"sprites/spr_level_up_hud/spr_level_up_hud.yy",},
     {"name":"spr_life_bar","order":10,"path":"sprites/spr_life_bar/spr_life_bar.yy",},
     {"name":"spr_logo","order":14,"path":"sprites/spr_logo/spr_logo.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"spr_magne","order":31,"path":"sprites/spr_magne/spr_magne.yy",},
+>>>>>>> feature/upgrades
     {"name":"spr_menu_bg","order":15,"path":"sprites/spr_menu_bg/spr_menu_bg.yy",},
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"spr_speed","order":13,"path":"sprites/spr_speed/spr_speed.yy",},
     {"name":"spr_spell_1_vfx","order":4,"path":"sprites/spr_spell_1_vfx/spr_spell_1_vfx.yy",},
     {"name":"spr_spell_1","order":5,"path":"sprites/spr_spell_1/spr_spell_1.yy",},
+<<<<<<< HEAD
     {"name":"Sprite18","order":17,"path":"sprites/Sprite18/Sprite18.yy",},
+=======
+    {"name":"spr_velprog","order":32,"path":"sprites/spr_velprog/spr_velprog.yy",},
+>>>>>>> feature/upgrades
   ],
 }
