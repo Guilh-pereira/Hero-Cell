@@ -11,15 +11,9 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0",},
-<<<<<<< HEAD
-    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
-=======
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
->>>>>>> feature/upgrades
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -66,12 +60,6 @@
     {"id":{"name":"snd_selecionar_power_up","path":"sounds/snd_selecionar_power_up/snd_selecionar_power_up.yy",},},
     {"id":{"name":"snd_selecionar","path":"sounds/snd_selecionar/snd_selecionar.yy",},},
     {"id":{"name":"snd_shoot","path":"sounds/snd_shoot/snd_shoot.yy",},},
-<<<<<<< HEAD
-    {"id":{"name":"spr_camera","path":"sprites/spr_camera/spr_camera.yy",},},
-    {"id":{"name":"spr_catalogo_viral","path":"sprites/spr_catalogo_viral/spr_catalogo_viral.yy",},},
-    {"id":{"name":"spr_controles","path":"sprites/spr_controles/spr_controles.yy",},},
-    {"id":{"name":"spr_damage","path":"sprites/spr_damage/spr_damage.yy",},},
-=======
     {"id":{"name":"spr_armad","path":"sprites/spr_armad/spr_armad.yy",},},
     {"id":{"name":"spr_berserk","path":"sprites/spr_berserk/spr_berserk.yy",},},
     {"id":{"name":"spr_camera","path":"sprites/spr_camera/spr_camera.yy",},},
@@ -79,46 +67,32 @@
     {"id":{"name":"spr_controles","path":"sprites/spr_controles/spr_controles.yy",},},
     {"id":{"name":"spr_dmgspeed","path":"sprites/spr_dmgspeed/spr_dmgspeed.yy",},},
     {"id":{"name":"spr_dmgup","path":"sprites/spr_dmgup/spr_dmgup.yy",},},
->>>>>>> feature/upgrades
     {"id":{"name":"spr_elementos_bg","path":"sprites/spr_elementos_bg/spr_elementos_bg.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},},
     {"id":{"name":"spr_enemy4","path":"sprites/spr_enemy4/spr_enemy4.yy",},},
     {"id":{"name":"spr_enemy5","path":"sprites/spr_enemy5/spr_enemy5.yy",},},
-<<<<<<< HEAD
-=======
     {"id":{"name":"spr_escud","path":"sprites/spr_escud/spr_escud.yy",},},
     {"id":{"name":"spr_esqu","path":"sprites/spr_esqu/spr_esqu.yy",},},
->>>>>>> feature/upgrades
     {"id":{"name":"spr_exp_bar","path":"sprites/spr_exp_bar/spr_exp_bar.yy",},},
     {"id":{"name":"spr_exp_hud","path":"sprites/spr_exp_hud/spr_exp_hud.yy",},},
     {"id":{"name":"spr_exp","path":"sprites/spr_exp/spr_exp.yy",},},
     {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},},
     {"id":{"name":"spr_hp","path":"sprites/spr_hp/spr_hp.yy",},},
-<<<<<<< HEAD
-=======
     {"id":{"name":"spr_hpregen","path":"sprites/spr_hpregen/spr_hpregen.yy",},},
->>>>>>> feature/upgrades
     {"id":{"name":"spr_jogo_bg","path":"sprites/spr_jogo_bg/spr_jogo_bg.yy",},},
     {"id":{"name":"spr_level_up_hud","path":"sprites/spr_level_up_hud/spr_level_up_hud.yy",},},
     {"id":{"name":"spr_life_bar","path":"sprites/spr_life_bar/spr_life_bar.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
-<<<<<<< HEAD
-=======
     {"id":{"name":"spr_magne","path":"sprites/spr_magne/spr_magne.yy",},},
->>>>>>> feature/upgrades
     {"id":{"name":"spr_menu_bg","path":"sprites/spr_menu_bg/spr_menu_bg.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_walking","path":"sprites/spr_player_walking/spr_player_walking.yy",},},
     {"id":{"name":"spr_speed","path":"sprites/spr_speed/spr_speed.yy",},},
     {"id":{"name":"spr_spell_1_vfx","path":"sprites/spr_spell_1_vfx/spr_spell_1_vfx.yy",},},
     {"id":{"name":"spr_spell_1","path":"sprites/spr_spell_1/spr_spell_1.yy",},},
-<<<<<<< HEAD
-    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
-=======
     {"id":{"name":"spr_velprog","path":"sprites/spr_velprog/spr_velprog.yy",},},
->>>>>>> feature/upgrades
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
