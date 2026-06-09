@@ -7,13 +7,6 @@ if(global.levelup == true) {
 	exit //para de executar todo o código abaixo dele
 }
 
-<<<<<<< HEAD
-if(distance_to_object(obj_player) <= obj_player.collect_range) {
-	var _dir = point_direction(x, y, obj_player.x, obj_player.y)
-	hspd = lengthdir_x(spd, _dir)
-	vspd = lengthdir_y(spd, _dir)
-	
-=======
 // verifica se a experiência está dentro do alcance de magnetismo
 if(distance_to_object(obj_player) <= obj_player.xp_magnet) {
 
@@ -27,7 +20,6 @@ if(distance_to_object(obj_player) <= obj_player.xp_magnet) {
 	vspd = lengthdir_y(spd, _dir)
 
 	// move a experiência até o player
->>>>>>> feature/upgrades
 	x += hspd
 	y += vspd
 }
