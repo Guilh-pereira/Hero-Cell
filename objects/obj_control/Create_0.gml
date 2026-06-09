@@ -31,20 +31,6 @@ function Upgrade(_nome, _desc, _sprite, _funcao) constructor {
 
 
 global.upgrade_pool = [
-<<<<<<< HEAD
-	new Upgrade("Vida Extra", "+5 de Vida Máxima", spr_hp, function() {
-		obj_player.hpMax += 5
-		obj_player.hp += 5 //cura um pouco ao aumentar o hp
-	}),
-	new Upgrade("Velocidade", "Aumenta a velocidade", spr_speed, function() {
-		obj_player.spd += .5 //aumenta a velocidade base
-	}),
-	new Upgrade("Ataque Rápido", "Ataca em menos tempo", spr_damage, function() {
-		obj_player.spell_1_timer -= 5 //reduz o tempo de cooldown
-		// Evita que o timer fique menor que 10 frames para não bugar
-		if (obj_player.spell_1_timer < 10) obj_player.spell_1_timer = 10;
-	}) 
-=======
 
     // VIDA
     new Upgrade("Vida Extra", "+5 de Vida Máxima", spr_hp, function() {
@@ -109,7 +95,6 @@ global.upgrade_pool = [
         obj_player.berserk_damage += 3
         obj_player.berserk_attack_speed += 5
     }) */
->>>>>>> feature/upgrades
 ]
 
 // Array que vai guardar os 3 poderes sorteados na tela atual
