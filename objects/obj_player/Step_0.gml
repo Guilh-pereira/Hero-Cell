@@ -19,10 +19,10 @@ if (show_hp_timer > 0) { //condição que faz o timer do hp começar
 //sistema de regeneração
 if(hp < hpMax)
 {
-	hp += hp_regen / room_speed
+	hp += hp_regen / game_get_speed(gamespeed_fps);
 
 	if(hp > hpMax)
-		hp = hpMax
+		hp = hpMax;
 }
 
 //sistema de berserk
