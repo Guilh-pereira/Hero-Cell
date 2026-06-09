@@ -6,15 +6,6 @@ if(global.levelup == true){
 	exit;
 }
 
-<<<<<<< HEAD
-hp -= other.damage //quando encosta toma dano
-is_damage = true
-alarm[0] = 2
-show_hp_timer = game_get_speed(gamespeed_fps) * 2 //como a contar o timer da vida
-
-if(hp <= 0) { //se o hp acabar vai para a tela de game over
-	room_goto(Room5);
-=======
 // impede tomar dano várias vezes seguidas
 if(is_damage == false)
 {
@@ -56,5 +47,4 @@ if(is_damage == false)
 // verifica se morreu
 if(hp <= 0) {
 	room_goto(Room5); //vai para tela de game over
->>>>>>> feature/upgrades
 }
